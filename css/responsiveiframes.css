@@ -1,0 +1,15 @@
+div.iframeWrapping {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 133%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+div.iframeWrapping > iframe {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
